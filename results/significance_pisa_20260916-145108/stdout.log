@@ -1,0 +1,16 @@
+2026-09-16 14:51:08,747 INFO __main__ fitting frontier components
+2026-09-16 14:53:30,112 INFO mrec.models.pisa_recommender loaded PISA checkpoint PROJECTS/00-mrec-core/results/pisa_test_20260831-094523/model.pt (no training)
+2026-09-16 14:53:30,113 INFO __main__ fitting the model under test: pisa
+2026-09-16 14:54:54,926 INFO mrec.models.pisa_recommender loaded PISA checkpoint PROJECTS/00-mrec-core/results/pisa_test_20260831-094523/model.pt (no training)
+2026-09-16 14:54:55,012 INFO __main__ 6618 users in the union of the five cohorts, 66180 requests
+2026-09-16 14:54:56,346 INFO __main__ scored 0/66180
+2026-09-16 14:55:20,590 INFO __main__ scored 10000/66180
+2026-09-16 14:55:44,858 INFO __main__ scored 20000/66180
+2026-09-16 14:56:09,071 INFO __main__ scored 30000/66180
+2026-09-16 14:56:33,359 INFO __main__ scored 40000/66180
+2026-09-16 14:56:57,875 INFO __main__ scored 50000/66180
+2026-09-16 14:57:22,151 INFO __main__ scored 60000/66180
+2026-09-16 14:58:23,037 INFO __main__ pisa: ndcg_all@10 0.0820, repr@10 0.8551
+2026-09-16 14:58:46,188 INFO __main__ ratio 0.8: model 0.0820  frontier 0.0992  diff -0.0172  p = 9.999e-05
+2026-09-16 14:59:09,227 INFO __main__ ratio 0.9: model 0.0820  frontier 0.1039  diff -0.0219  p = 9.999e-05
+2026-09-16 14:59:32,312 INFO __main__ ratio 1.0: model 0.0820  frontier 0.1076  diff -0.0256  p = 9.999e-05

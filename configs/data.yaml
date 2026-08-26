@@ -1,0 +1,4 @@
+min_sessions: 300
+n_valid: 10
+n_test: 10
+normalize_embedding: true

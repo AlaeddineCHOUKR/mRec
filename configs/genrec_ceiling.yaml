@@ -1,0 +1,19 @@
+# genrec natural vs history-masked. The most interesting cell in the masking table:
+# a generative decoder can reach an item with no interaction history at all, so this
+# asks whether semantic IDs rank unheard tracks well once repeats stop competing for
+# the ten slots. epochs: 0 loads the checkpoint instead of retraining.
+model: genrec
+split: test
+k: 10
+seqlen: 30
+n_users: 3000
+batch_size: 256
+model_params:
+  tokenizer: residual_kmeans
+  tokenizer_params: {n_levels: 3, codebook_size: 256, seed: 0}
+  collision_policy: extra_token
+  embeddings: svd
+  beam_width: 32
+  model: {embedding_dim: 128, seqlen: 30, num_blocks: 2, num_heads: 2, dropout: 0.1}
+  training: {lr: 0.001, batch_size: 256, epochs: 0, device: cuda}
+  n_valid_users: 1000

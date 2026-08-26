@@ -1,0 +1,21 @@
+# genrec_control: the protocol-standard cohort, trained to its own convergence.
+# The committed genrec run used 500 users and a fixed 15 epochs with validation
+# loss still falling, so none of its numbers are comparable to the baselines.
+model: genrec
+split: test
+k: 10
+seqlen: 30
+n_users: 3000
+batch_size: 256
+results_dir: results
+model_params:
+  tokenizer: residual_kmeans
+  tokenizer_params: {n_levels: 3, codebook_size: 256, seed: 0}
+  collision_policy: extra_token
+  embeddings: svd
+  beam_width: 32
+  model: {embedding_dim: 128, seqlen: 30, num_blocks: 2, num_heads: 2, dropout: 0.1}
+  training: {lr: 0.001, batch_size: 256, epochs: 300, patience: 5, device: cuda}
+  n_valid_users: 1000
+  control: true
+  decode_mode: free

@@ -1,0 +1,63 @@
+2026-09-18 09:04:41,932 INFO __main__ run dir PROJECTS/03-controllable-decoding/results/genrec_ceiling_b512_test_20260918-090441
+2026-09-18 09:04:42,663 INFO faiss._loader Loading faiss with AVX512-SPR support.
+2026-09-18 09:04:42,664 INFO faiss._loader Could not load library with AVX512-SPR support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512_spr'")
+2026-09-18 09:04:42,664 INFO faiss._loader Loading faiss with AVX512 support.
+2026-09-18 09:04:42,664 INFO faiss._loader Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-09-18 09:04:42,664 INFO faiss._loader Loading faiss with AVX2 support.
+2026-09-18 09:04:42,664 INFO faiss._loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-18 09:04:42,664 INFO faiss._loader Loading faiss.
+2026-09-18 09:04:42,682 INFO faiss._loader Successfully loaded faiss.
+2026-09-18 09:04:44,918 INFO mrec.models.genrec_recommender residual_kmeans: 4 levels, collision rate 0.734, largest bucket 235
+2026-09-18 09:04:45,835 INFO mrec.models.genrec_recommender training windows: 113649, validation windows: 10000
+2026-09-18 09:04:45,835 INFO mrec.models.genrec_recommender epochs=0: skipping training (checkpoint expected)
+2026-09-18 09:04:45,878 INFO __main__ restored PROJECTS/02-repeat-aware-genrec/results/genrec_test_20260916-142549/model.pt
+2026-09-18 09:04:45,878 INFO __main__ beam width overridden to 512
+2026-09-18 09:04:56,340 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0743, 'ndcg_exp@10': 0.006, 'ndcg_rep@10': 0.0771, 'pop@10': 0.2897, 'recall_all@10': 0.0707, 'recall_exp@10': 0.0104, 'recall_rep@10': 0.0757, 'repr@10': 0.8734, 'repratio_gt': 0.8517}
+2026-09-18 09:05:06,349 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0788, 'ndcg_exp@10': 0.0054, 'ndcg_rep@10': 0.0815, 'pop@10': 0.2915, 'recall_all@10': 0.0756, 'recall_exp@10': 0.0088, 'recall_rep@10': 0.0809, 'repr@10': 0.8726, 'repratio_gt': 0.8526}
+2026-09-18 09:05:16,335 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0785, 'ndcg_exp@10': 0.0051, 'ndcg_rep@10': 0.0811, 'pop@10': 0.3006, 'recall_all@10': 0.0746, 'recall_exp@10': 0.01, 'recall_rep@10': 0.0793, 'repr@10': 0.8675, 'repratio_gt': 0.8464}
+2026-09-18 09:05:26,596 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0694, 'ndcg_exp@10': 0.0113, 'ndcg_rep@10': 0.0707, 'pop@10': 0.2923, 'recall_all@10': 0.0655, 'recall_exp@10': 0.0191, 'recall_rep@10': 0.0695, 'repr@10': 0.8663, 'repratio_gt': 0.8428}
+2026-09-18 09:05:36,654 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0744, 'ndcg_exp@10': 0.007, 'ndcg_rep@10': 0.0773, 'pop@10': 0.2918, 'recall_all@10': 0.0708, 'recall_exp@10': 0.0131, 'recall_rep@10': 0.0759, 'repr@10': 0.8544, 'repratio_gt': 0.8453}
+2026-09-18 09:05:36,670 INFO __main__ natural
+shape: (10, 4)
+┌───────────────┬──────────┬──────────┬──────────┐
+│ metric        ┆ mean     ┆ ci_lo    ┆ ci_hi    │
+│ ---           ┆ ---      ┆ ---      ┆ ---      │
+│ str           ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════════╪══════════╪══════════╪══════════╡
+│ ndcg_all@10   ┆ 0.075078 ┆ 0.072168 ┆ 0.077852 │
+│ ndcg_exp@10   ┆ 0.006961 ┆ 0.00541  ┆ 0.009174 │
+│ ndcg_rep@10   ┆ 0.077536 ┆ 0.074041 ┆ 0.080546 │
+│ pop@10        ┆ 0.293168 ┆ 0.290635 ┆ 0.29706  │
+│ recall_all@10 ┆ 0.071437 ┆ 0.068342 ┆ 0.074404 │
+│ recall_exp@10 ┆ 0.012295 ┆ 0.009621 ┆ 0.015861 │
+│ recall_rep@10 ┆ 0.076267 ┆ 0.0727   ┆ 0.079534 │
+│ rep_bias      ┆ 0.019067 ┆ 0.013887 ┆ 0.022319 │
+│ repr@10       ┆ 0.866828 ┆ 0.86056  ┆ 0.871892 │
+│ repratio_gt   ┆ 0.847761 ┆ 0.844509 ┆ 0.851013 │
+└───────────────┴──────────┴──────────┴──────────┘
+2026-09-18 09:05:47,396 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0087, 'ndcg_exp@10': 0.0361, 'ndcg_rep@10': 0.0, 'pop@10': 0.2353, 'recall_all@10': 0.008, 'recall_exp@10': 0.0563, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8517}
+2026-09-18 09:05:57,867 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0068, 'ndcg_exp@10': 0.0304, 'ndcg_rep@10': 0.0, 'pop@10': 0.2348, 'recall_all@10': 0.0061, 'recall_exp@10': 0.0479, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8526}
+2026-09-18 09:06:08,470 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0088, 'ndcg_exp@10': 0.0342, 'ndcg_rep@10': 0.0, 'pop@10': 0.2395, 'recall_all@10': 0.0085, 'recall_exp@10': 0.0547, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8464}
+2026-09-18 09:06:19,115 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0114, 'ndcg_exp@10': 0.047, 'ndcg_rep@10': 0.0, 'pop@10': 0.2331, 'recall_all@10': 0.0103, 'recall_exp@10': 0.07, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8428}
+2026-09-18 09:06:29,691 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0091, 'ndcg_exp@10': 0.0405, 'ndcg_rep@10': 0.0, 'pop@10': 0.231, 'recall_all@10': 0.0081, 'recall_exp@10': 0.0613, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8453}
+2026-09-18 09:06:29,702 INFO __main__ explore_only
+shape: (10, 4)
+┌───────────────┬───────────┬───────────┬───────────┐
+│ metric        ┆ mean      ┆ ci_lo     ┆ ci_hi     │
+│ ---           ┆ ---       ┆ ---       ┆ ---       │
+│ str           ┆ f64       ┆ f64       ┆ f64       │
+╞═══════════════╪═══════════╪═══════════╪═══════════╡
+│ ndcg_all@10   ┆ 0.00896   ┆ 0.007652  ┆ 0.010373  │
+│ ndcg_exp@10   ┆ 0.037647  ┆ 0.033066  ┆ 0.043113  │
+│ ndcg_rep@10   ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ pop@10        ┆ 0.234735  ┆ 0.232492  ┆ 0.237378  │
+│ recall_all@10 ┆ 0.0082    ┆ 0.006971  ┆ 0.009413  │
+│ recall_exp@10 ┆ 0.058048  ┆ 0.051952  ┆ 0.064751  │
+│ recall_rep@10 ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ rep_bias      ┆ -0.847761 ┆ -0.851013 ┆ -0.844509 │
+│ repr@10       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ repratio_gt   ┆ 0.847761  ┆ 0.844509  ┆ 0.851013  │
+└───────────────┴───────────┴───────────┴───────────┘

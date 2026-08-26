@@ -1,0 +1,59 @@
+{
+  "kind": "explore_ceiling",
+  "status": "complete",
+  "git_commit": "facc2c9903834cbababf6e35175e9060d34187ea",
+  "git_dirty": false,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "model": "genrec_ceiling_b512",
+    "split": "test",
+    "k": 10,
+    "seqlen": 30,
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ],
+    "batch_size": 256,
+    "proc_dir": "/home/jupyter-a.choukr-allah/Deezer/data/proc",
+    "results_dir": "PROJECTS/03-controllable-decoding/results",
+    "model_params": {
+      "tokenizer": "residual_kmeans",
+      "tokenizer_params": {
+        "n_levels": 3,
+        "codebook_size": 256,
+        "seed": 0
+      },
+      "collision_policy": "extra_token",
+      "embeddings": "svd",
+      "beam_width": 32,
+      "model": {
+        "embedding_dim": 128,
+        "seqlen": 30,
+        "num_blocks": 2,
+        "num_heads": 2,
+        "dropout": 0.1
+      },
+      "training": {
+        "lr": 0.001,
+        "batch_size": 256,
+        "epochs": 0,
+        "device": "cuda"
+      },
+      "n_valid_users": 1000
+    }
+  },
+  "started_at": "2026-09-18T09:08:08+0000",
+  "counts": {
+    "n_users": 7063,
+    "n_items": 50000
+  },
+  "wall_seconds": 618.1,
+  "finished_at": "2026-09-18T09:18:26+0000",
+  "git_commit_before_rewrite": "5a7643332c58635920e6bc1e99a2631368a9b39f"
+}

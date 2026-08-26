@@ -1,0 +1,73 @@
+{
+  "kind": "eval",
+  "status": "complete",
+  "git_commit": "c7a93dc4688cebe4cfad1187c73605a7933b9c6a",
+  "git_dirty": true,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "model": "pisa",
+    "split": "test",
+    "k": 10,
+    "seqlen": 30,
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ],
+    "batch_size": 100,
+    "proc_dir": "/home/jupyter-a.choukr-allah/Deezer/data/proc",
+    "results_dir": "/home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results",
+    "model_params": {
+      "model": {
+        "embedding_dim": 128,
+        "seqlen": 30,
+        "num_blocks": 2,
+        "num_heads": 2,
+        "dropout": 0.0,
+        "num_favs": 20,
+        "flatten_actr": 0.5,
+        "lbda_task": 0.9,
+        "lbda_pos": 0.9,
+        "lbda_ls": 0.4
+      },
+      "training": {
+        "lr": 0.001,
+        "batch_size": 512,
+        "epochs": 100,
+        "patience": 5,
+        "max_steps": 150000,
+        "device": "cuda"
+      },
+      "n_valid_users": 1000
+    }
+  },
+  "started_at": "2026-08-31T09:45:23+0000",
+  "counts": {
+    "n_users": 7063,
+    "n_items": 50000
+  },
+  "training": {
+    "best_epoch": 99,
+    "best_valid_loss": 0.025952707794308662
+  },
+  "summary": {
+    "ndcg_all@10": 0.08152158198351626,
+    "ndcg_exp@10": 0.018889404746803805,
+    "ndcg_rep@10": 0.08227053370225418,
+    "pop@10": 0.28301197536457606,
+    "recall_all@10": 0.07574260317460324,
+    "recall_exp@10": 0.02731114792886105,
+    "recall_rep@10": 0.08105832548080966,
+    "rep_bias": 0.014958235449735869,
+    "repr@10": 0.8557253333333342,
+    "repratio_gt": 0.8407670978835983
+  },
+  "wall_seconds": 2864.2,
+  "finished_at": "2026-08-31T10:33:07+0000",
+  "git_commit_before_rewrite": "f5d7653213d61731ae40e4685f4569b4d5c5cf7d"
+}

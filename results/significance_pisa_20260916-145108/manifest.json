@@ -1,0 +1,35 @@
+{
+  "kind": "significance",
+  "status": "complete",
+  "git_commit": "dad7e3020006b7829bfc5b04728c6718b39d124e",
+  "git_dirty": true,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "model": "pisa",
+    "model_config": "PROJECTS/03-controllable-decoding/configs/pisa_ceiling.yaml",
+    "metric": "ndcg_all@10",
+    "ratios": [
+      0.8,
+      0.9,
+      1.0
+    ],
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ]
+  },
+  "started_at": "2026-09-16T14:51:08+0000",
+  "counts": {
+    "n_users": 6618,
+    "n_requests": 66180
+  },
+  "wall_seconds": 503.6,
+  "finished_at": "2026-09-16T14:59:32+0000",
+  "git_commit_before_rewrite": "3ce4f3b702b4ddfbc02cd3fdf7a9346b1baa991e"
+}

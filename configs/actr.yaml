@@ -1,0 +1,6 @@
+model: actr
+split: test
+k: 10
+seqlen: 30
+n_users: 3000
+batch_size: 100

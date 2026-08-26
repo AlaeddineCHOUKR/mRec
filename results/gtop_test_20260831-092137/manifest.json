@@ -1,0 +1,46 @@
+{
+  "kind": "eval",
+  "status": "complete",
+  "git_commit": "c7a93dc4688cebe4cfad1187c73605a7933b9c6a",
+  "git_dirty": true,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "model": "gtop",
+    "split": "test",
+    "k": 10,
+    "seqlen": 30,
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ],
+    "batch_size": 100,
+    "proc_dir": "/home/jupyter-a.choukr-allah/Deezer/data/proc",
+    "results_dir": "/home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results"
+  },
+  "started_at": "2026-08-31T09:21:37+0000",
+  "counts": {
+    "n_users": 7063,
+    "n_items": 50000
+  },
+  "summary": {
+    "ndcg_all@10": 0.01301487413582906,
+    "ndcg_exp@10": 0.0023448034373526466,
+    "ndcg_rep@10": 0.013788804519382988,
+    "pop@10": 0.6429420925952128,
+    "recall_all@10": 0.012341989417989373,
+    "recall_exp@10": 0.003832072109573414,
+    "recall_rep@10": 0.013856429432266709,
+    "rep_bias": -0.19722043121693172,
+    "repr@10": 0.6435466666666666,
+    "repratio_gt": 0.8407670978835983
+  },
+  "wall_seconds": 105.2,
+  "finished_at": "2026-08-31T09:23:22+0000",
+  "git_commit_before_rewrite": "f5d7653213d61731ae40e4685f4569b4d5c5cf7d"
+}

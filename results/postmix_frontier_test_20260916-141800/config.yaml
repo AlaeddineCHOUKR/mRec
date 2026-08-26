@@ -1,0 +1,25 @@
+batch_size: 100
+explore_model: pisa (history masked)
+k: 10
+n_users: 3000
+orderings:
+- repeat_first
+- interleaved
+pisa_checkpoint: PROJECTS/00-mrec-core/results/pisa_test_20260831-094523/model.pt
+ratios:
+- 0.0
+- 0.2
+- 0.4
+- 0.6
+- 0.8
+- 0.9
+- 1.0
+repeat_model: actr
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907
+seqlen: 30
+split: test

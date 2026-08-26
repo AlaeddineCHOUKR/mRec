@@ -1,0 +1,35 @@
+batch_size: 100
+k: 10
+model: pisa_ceiling
+model_params:
+  checkpoint: PROJECTS/00-mrec-core/results/pisa_test_20260831-094523/model.pt
+  model:
+    dropout: 0.0
+    embedding_dim: 128
+    flatten_actr: 0.5
+    lbda_ls: 0.4
+    lbda_pos: 0.9
+    lbda_task: 0.9
+    num_blocks: 2
+    num_favs: 20
+    num_heads: 2
+    seqlen: 30
+  n_valid_users: 1000
+  training:
+    batch_size: 512
+    device: cuda
+    epochs: 100
+    lr: 0.001
+    max_steps: 150000
+    patience: 5
+n_users: 3000
+proc_dir: /home/jupyter-a.choukr-allah/Deezer/data/proc
+results_dir: PROJECTS/03-controllable-decoding/results
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907
+seqlen: 30
+split: test

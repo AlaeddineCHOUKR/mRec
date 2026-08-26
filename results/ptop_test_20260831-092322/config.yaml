@@ -1,0 +1,14 @@
+batch_size: 100
+k: 10
+model: ptop
+n_users: 3000
+proc_dir: /home/jupyter-a.choukr-allah/Deezer/data/proc
+results_dir: /home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907
+seqlen: 30
+split: test

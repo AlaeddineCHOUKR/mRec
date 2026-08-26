@@ -1,0 +1,35 @@
+batch_size: 256
+k: 10
+model: genrec_ceiling_b128
+model_params:
+  beam_width: 32
+  collision_policy: extra_token
+  embeddings: svd
+  model:
+    dropout: 0.1
+    embedding_dim: 128
+    num_blocks: 2
+    num_heads: 2
+    seqlen: 30
+  n_valid_users: 1000
+  tokenizer: residual_kmeans
+  tokenizer_params:
+    codebook_size: 256
+    n_levels: 3
+    seed: 0
+  training:
+    batch_size: 256
+    device: cuda
+    epochs: 0
+    lr: 0.001
+n_users: 500
+proc_dir: /home/jupyter-a.choukr-allah/Deezer/data/proc
+results_dir: PROJECTS/03-controllable-decoding/results
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907
+seqlen: 30
+split: test

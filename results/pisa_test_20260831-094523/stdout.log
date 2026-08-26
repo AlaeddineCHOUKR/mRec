@@ -1,0 +1,126 @@
+2026-08-31 09:45:23,546 INFO __main__ run dir /home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results/pisa_test_20260831-094523
+2026-08-31 09:46:46,798 INFO mrec.models.pisa_recommender training windows: 113649 over 7063 users
+2026-08-31 09:48:28,957 INFO mrec.train.trainer epoch 0  train 0.26581  valid 0.15581  26s  *
+2026-08-31 09:48:54,735 INFO mrec.train.trainer epoch 1  train 0.11633  valid 0.10139  26s  *
+2026-08-31 09:49:20,324 INFO mrec.train.trainer epoch 2  train 0.08339  valid 0.08110  26s  *
+2026-08-31 09:49:45,895 INFO mrec.train.trainer epoch 3  train 0.06901  valid 0.07072  26s  *
+2026-08-31 09:50:11,772 INFO mrec.train.trainer epoch 4  train 0.06090  valid 0.06452  26s  *
+2026-08-31 09:50:37,447 INFO mrec.train.trainer epoch 5  train 0.05560  valid 0.06002  26s  *
+2026-08-31 09:51:03,047 INFO mrec.train.trainer epoch 6  train 0.05180  valid 0.05667  26s  *
+2026-08-31 09:51:28,658 INFO mrec.train.trainer epoch 7  train 0.04896  valid 0.05401  26s  *
+2026-08-31 09:51:54,301 INFO mrec.train.trainer epoch 8  train 0.04669  valid 0.05148  26s  *
+2026-08-31 09:52:19,915 INFO mrec.train.trainer epoch 9  train 0.04472  valid 0.04976  26s  *
+2026-08-31 09:52:45,533 INFO mrec.train.trainer epoch 10  train 0.04315  valid 0.04842  26s  *
+2026-08-31 09:53:11,126 INFO mrec.train.trainer epoch 11  train 0.04176  valid 0.04660  26s  *
+2026-08-31 09:53:36,735 INFO mrec.train.trainer epoch 12  train 0.04054  valid 0.04581  26s  *
+2026-08-31 09:54:02,399 INFO mrec.train.trainer epoch 13  train 0.03953  valid 0.04473  26s  *
+2026-08-31 09:54:28,035 INFO mrec.train.trainer epoch 14  train 0.03852  valid 0.04388  26s  *
+2026-08-31 09:54:53,690 INFO mrec.train.trainer epoch 15  train 0.03768  valid 0.04295  26s  *
+2026-08-31 09:55:19,366 INFO mrec.train.trainer epoch 16  train 0.03701  valid 0.04213  26s  *
+2026-08-31 09:55:45,000 INFO mrec.train.trainer epoch 17  train 0.03623  valid 0.04151  26s  *
+2026-08-31 09:56:10,653 INFO mrec.train.trainer epoch 18  train 0.03560  valid 0.04070  26s  *
+2026-08-31 09:56:36,322 INFO mrec.train.trainer epoch 19  train 0.03506  valid 0.04011  26s  *
+2026-08-31 09:57:01,984 INFO mrec.train.trainer epoch 20  train 0.03448  valid 0.03970  26s  *
+2026-08-31 09:57:27,665 INFO mrec.train.trainer epoch 21  train 0.03399  valid 0.03919  26s  *
+2026-08-31 09:57:53,279 INFO mrec.train.trainer epoch 22  train 0.03346  valid 0.03881  26s  *
+2026-08-31 09:58:18,970 INFO mrec.train.trainer epoch 23  train 0.03306  valid 0.03824  26s  *
+2026-08-31 09:58:44,577 INFO mrec.train.trainer epoch 24  train 0.03264  valid 0.03779  26s  *
+2026-08-31 09:59:10,223 INFO mrec.train.trainer epoch 25  train 0.03221  valid 0.03725  26s  *
+2026-08-31 09:59:35,930 INFO mrec.train.trainer epoch 26  train 0.03183  valid 0.03699  26s  *
+2026-08-31 10:00:01,580 INFO mrec.train.trainer epoch 27  train 0.03143  valid 0.03681  26s  *
+2026-08-31 10:00:27,245 INFO mrec.train.trainer epoch 28  train 0.03111  valid 0.03637  26s  *
+2026-08-31 10:00:52,980 INFO mrec.train.trainer epoch 29  train 0.03080  valid 0.03593  26s  *
+2026-08-31 10:01:18,967 INFO mrec.train.trainer epoch 30  train 0.03048  valid 0.03571  26s  *
+2026-08-31 10:01:44,926 INFO mrec.train.trainer epoch 31  train 0.03015  valid 0.03533  26s  *
+2026-08-31 10:02:10,706 INFO mrec.train.trainer epoch 32  train 0.02988  valid 0.03506  26s  *
+2026-08-31 10:02:36,442 INFO mrec.train.trainer epoch 33  train 0.02961  valid 0.03495  26s  *
+2026-08-31 10:03:02,180 INFO mrec.train.trainer epoch 34  train 0.02934  valid 0.03452  26s  *
+2026-08-31 10:03:28,083 INFO mrec.train.trainer epoch 35  train 0.02912  valid 0.03413  26s  *
+2026-08-31 10:03:54,192 INFO mrec.train.trainer epoch 36  train 0.02881  valid 0.03406  26s  *
+2026-08-31 10:04:19,916 INFO mrec.train.trainer epoch 37  train 0.02856  valid 0.03389  26s  *
+2026-08-31 10:04:45,593 INFO mrec.train.trainer epoch 38  train 0.02835  valid 0.03373  26s  *
+2026-08-31 10:05:11,293 INFO mrec.train.trainer epoch 39  train 0.02813  valid 0.03338  26s  *
+2026-08-31 10:05:36,933 INFO mrec.train.trainer epoch 40  train 0.02791  valid 0.03339  26s
+2026-08-31 10:06:02,588 INFO mrec.train.trainer epoch 41  train 0.02770  valid 0.03306  26s  *
+2026-08-31 10:06:28,263 INFO mrec.train.trainer epoch 42  train 0.02748  valid 0.03277  26s  *
+2026-08-31 10:06:53,916 INFO mrec.train.trainer epoch 43  train 0.02724  valid 0.03243  26s  *
+2026-08-31 10:07:19,567 INFO mrec.train.trainer epoch 44  train 0.02706  valid 0.03240  26s  *
+2026-08-31 10:07:45,186 INFO mrec.train.trainer epoch 45  train 0.02686  valid 0.03224  26s  *
+2026-08-31 10:08:10,824 INFO mrec.train.trainer epoch 46  train 0.02666  valid 0.03199  26s  *
+2026-08-31 10:08:36,490 INFO mrec.train.trainer epoch 47  train 0.02646  valid 0.03173  26s  *
+2026-08-31 10:09:02,100 INFO mrec.train.trainer epoch 48  train 0.02632  valid 0.03168  26s  *
+2026-08-31 10:09:27,737 INFO mrec.train.trainer epoch 49  train 0.02613  valid 0.03155  26s  *
+2026-08-31 10:09:53,642 INFO mrec.train.trainer epoch 50  train 0.02597  valid 0.03128  26s  *
+2026-08-31 10:10:19,438 INFO mrec.train.trainer epoch 51  train 0.02578  valid 0.03094  26s  *
+2026-08-31 10:10:45,399 INFO mrec.train.trainer epoch 52  train 0.02567  valid 0.03098  26s
+2026-08-31 10:11:11,445 INFO mrec.train.trainer epoch 53  train 0.02549  valid 0.03075  26s  *
+2026-08-31 10:11:37,198 INFO mrec.train.trainer epoch 54  train 0.02532  valid 0.03064  26s  *
+2026-08-31 10:12:03,181 INFO mrec.train.trainer epoch 55  train 0.02512  valid 0.03038  26s  *
+2026-08-31 10:12:29,072 INFO mrec.train.trainer epoch 56  train 0.02507  valid 0.03047  26s
+2026-08-31 10:12:55,064 INFO mrec.train.trainer epoch 57  train 0.02490  valid 0.03021  26s  *
+2026-08-31 10:13:21,000 INFO mrec.train.trainer epoch 58  train 0.02474  valid 0.02996  26s  *
+2026-08-31 10:13:47,007 INFO mrec.train.trainer epoch 59  train 0.02459  valid 0.02987  26s  *
+2026-08-31 10:14:12,686 INFO mrec.train.trainer epoch 60  train 0.02451  valid 0.02970  26s  *
+2026-08-31 10:14:38,836 INFO mrec.train.trainer epoch 61  train 0.02433  valid 0.02978  26s
+2026-08-31 10:15:04,871 INFO mrec.train.trainer epoch 62  train 0.02420  valid 0.02962  26s  *
+2026-08-31 10:15:30,562 INFO mrec.train.trainer epoch 63  train 0.02407  valid 0.02951  26s  *
+2026-08-31 10:15:56,249 INFO mrec.train.trainer epoch 64  train 0.02394  valid 0.02924  26s  *
+2026-08-31 10:16:21,942 INFO mrec.train.trainer epoch 65  train 0.02381  valid 0.02891  26s  *
+2026-08-31 10:16:47,561 INFO mrec.train.trainer epoch 66  train 0.02370  valid 0.02903  26s
+2026-08-31 10:17:13,197 INFO mrec.train.trainer epoch 67  train 0.02359  valid 0.02900  26s
+2026-08-31 10:17:38,817 INFO mrec.train.trainer epoch 68  train 0.02345  valid 0.02876  26s  *
+2026-08-31 10:18:04,475 INFO mrec.train.trainer epoch 69  train 0.02334  valid 0.02866  26s  *
+2026-08-31 10:18:30,119 INFO mrec.train.trainer epoch 70  train 0.02326  valid 0.02845  26s  *
+2026-08-31 10:18:55,754 INFO mrec.train.trainer epoch 71  train 0.02312  valid 0.02842  26s  *
+2026-08-31 10:19:21,410 INFO mrec.train.trainer epoch 72  train 0.02297  valid 0.02836  26s  *
+2026-08-31 10:19:47,060 INFO mrec.train.trainer epoch 73  train 0.02293  valid 0.02812  26s  *
+2026-08-31 10:20:12,724 INFO mrec.train.trainer epoch 74  train 0.02277  valid 0.02821  26s
+2026-08-31 10:20:38,457 INFO mrec.train.trainer epoch 75  train 0.02273  valid 0.02791  26s  *
+2026-08-31 10:21:04,114 INFO mrec.train.trainer epoch 76  train 0.02263  valid 0.02791  26s
+2026-08-31 10:21:29,782 INFO mrec.train.trainer epoch 77  train 0.02246  valid 0.02775  26s  *
+2026-08-31 10:21:55,410 INFO mrec.train.trainer epoch 78  train 0.02242  valid 0.02762  26s  *
+2026-08-31 10:22:21,081 INFO mrec.train.trainer epoch 79  train 0.02232  valid 0.02750  26s  *
+2026-08-31 10:22:46,723 INFO mrec.train.trainer epoch 80  train 0.02220  valid 0.02752  26s
+2026-08-31 10:23:12,390 INFO mrec.train.trainer epoch 81  train 0.02211  valid 0.02753  26s
+2026-08-31 10:23:38,066 INFO mrec.train.trainer epoch 82  train 0.02200  valid 0.02742  26s  *
+2026-08-31 10:24:03,763 INFO mrec.train.trainer epoch 83  train 0.02192  valid 0.02718  26s  *
+2026-08-31 10:24:29,414 INFO mrec.train.trainer epoch 84  train 0.02187  valid 0.02724  26s
+2026-08-31 10:24:55,058 INFO mrec.train.trainer epoch 85  train 0.02177  valid 0.02717  26s  *
+2026-08-31 10:25:20,710 INFO mrec.train.trainer epoch 86  train 0.02165  valid 0.02702  26s  *
+2026-08-31 10:25:46,361 INFO mrec.train.trainer epoch 87  train 0.02155  valid 0.02686  26s  *
+2026-08-31 10:26:12,077 INFO mrec.train.trainer epoch 88  train 0.02151  valid 0.02675  26s  *
+2026-08-31 10:26:37,719 INFO mrec.train.trainer epoch 89  train 0.02141  valid 0.02678  26s
+2026-08-31 10:27:03,354 INFO mrec.train.trainer epoch 90  train 0.02130  valid 0.02668  26s  *
+2026-08-31 10:27:29,007 INFO mrec.train.trainer epoch 91  train 0.02125  valid 0.02658  26s  *
+2026-08-31 10:27:54,647 INFO mrec.train.trainer epoch 92  train 0.02116  valid 0.02640  26s  *
+2026-08-31 10:28:20,268 INFO mrec.train.trainer epoch 93  train 0.02108  valid 0.02646  26s
+2026-08-31 10:28:45,930 INFO mrec.train.trainer epoch 94  train 0.02104  valid 0.02630  26s  *
+2026-08-31 10:29:11,599 INFO mrec.train.trainer epoch 95  train 0.02096  valid 0.02628  26s  *
+2026-08-31 10:29:37,273 INFO mrec.train.trainer epoch 96  train 0.02088  valid 0.02597  26s  *
+2026-08-31 10:30:02,954 INFO mrec.train.trainer epoch 97  train 0.02079  valid 0.02616  26s
+2026-08-31 10:30:28,618 INFO mrec.train.trainer epoch 98  train 0.02069  valid 0.02612  26s
+2026-08-31 10:30:54,270 INFO mrec.train.trainer epoch 99  train 0.02068  valid 0.02595  26s  *
+2026-08-31 10:30:54,273 INFO mrec.train.trainer best epoch 99, valid loss 0.02595
+2026-08-31 10:31:20,774 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0819, 'ndcg_exp@10': 0.019, 'ndcg_rep@10': 0.0824, 'pop@10': 0.282, 'recall_all@10': 0.0761, 'recall_exp@10': 0.028, 'recall_rep@10': 0.0811, 'repr@10': 0.8563, 'repratio_gt': 0.8422}
+2026-08-31 10:31:47,740 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0819, 'ndcg_exp@10': 0.0181, 'ndcg_rep@10': 0.0827, 'pop@10': 0.2822, 'recall_all@10': 0.0761, 'recall_exp@10': 0.026, 'recall_rep@10': 0.0816, 'repr@10': 0.8571, 'repratio_gt': 0.8406}
+2026-08-31 10:32:14,424 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0829, 'ndcg_exp@10': 0.0193, 'ndcg_rep@10': 0.0838, 'pop@10': 0.285, 'recall_all@10': 0.0768, 'recall_exp@10': 0.0278, 'recall_rep@10': 0.0823, 'repr@10': 0.855, 'repratio_gt': 0.8404}
+2026-08-31 10:32:41,108 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0794, 'ndcg_exp@10': 0.0195, 'ndcg_rep@10': 0.0799, 'pop@10': 0.2847, 'recall_all@10': 0.0737, 'recall_exp@10': 0.0276, 'recall_rep@10': 0.0788, 'repr@10': 0.8556, 'repratio_gt': 0.8409}
+2026-08-31 10:33:07,723 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0815, 'ndcg_exp@10': 0.0186, 'ndcg_rep@10': 0.0825, 'pop@10': 0.2811, 'recall_all@10': 0.076, 'recall_exp@10': 0.0271, 'recall_rep@10': 0.0815, 'repr@10': 0.8545, 'repratio_gt': 0.8397}
+2026-08-31 10:33:07,738 INFO __main__ 
+shape: (10, 4)
+┌───────────────┬──────────┬──────────┬──────────┐
+│ metric        ┆ mean     ┆ ci_lo    ┆ ci_hi    │
+│ ---           ┆ ---      ┆ ---      ┆ ---      │
+│ str           ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════════╪══════════╪══════════╪══════════╡
+│ ndcg_all@10   ┆ 0.081522 ┆ 0.08039  ┆ 0.082442 │
+│ ndcg_exp@10   ┆ 0.018889 ┆ 0.018438 ┆ 0.019318 │
+│ ndcg_rep@10   ┆ 0.082271 ┆ 0.081    ┆ 0.083274 │
+│ pop@10        ┆ 0.283012 ┆ 0.281692 ┆ 0.284351 │
+│ recall_all@10 ┆ 0.075743 ┆ 0.07467  ┆ 0.076494 │
+│ recall_exp@10 ┆ 0.027311 ┆ 0.026619 ┆ 0.027846 │
+│ recall_rep@10 ┆ 0.081058 ┆ 0.079883 ┆ 0.081916 │
+│ rep_bias      ┆ 0.014958 ┆ 0.014357 ┆ 0.015794 │
+│ repr@10       ┆ 0.855725 ┆ 0.854945 ┆ 0.85655  │
+│ repratio_gt   ┆ 0.840767 ┆ 0.840118 ┆ 0.841581 │
+└───────────────┴──────────┴──────────┴──────────┘

@@ -1,0 +1,48 @@
+2026-09-16 14:44:34,254 INFO __main__ run dir PROJECTS/03-controllable-decoding/results/pisa_ceiling_test_20260916-144434
+2026-09-16 14:45:58,912 INFO mrec.models.pisa_recommender loaded PISA checkpoint PROJECTS/00-mrec-core/results/pisa_test_20260831-094523/model.pt (no training)
+2026-09-16 14:46:26,895 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0819, 'ndcg_exp@10': 0.019, 'ndcg_rep@10': 0.0824, 'pop@10': 0.282, 'recall_all@10': 0.0761, 'recall_exp@10': 0.028, 'recall_rep@10': 0.0811, 'repr@10': 0.8563, 'repratio_gt': 0.8422}
+2026-09-16 14:46:54,758 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0819, 'ndcg_exp@10': 0.0181, 'ndcg_rep@10': 0.0827, 'pop@10': 0.2822, 'recall_all@10': 0.0761, 'recall_exp@10': 0.026, 'recall_rep@10': 0.0816, 'repr@10': 0.8571, 'repratio_gt': 0.8406}
+2026-09-16 14:47:22,355 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0829, 'ndcg_exp@10': 0.0193, 'ndcg_rep@10': 0.0838, 'pop@10': 0.285, 'recall_all@10': 0.0768, 'recall_exp@10': 0.0278, 'recall_rep@10': 0.0823, 'repr@10': 0.855, 'repratio_gt': 0.8404}
+2026-09-16 14:47:50,466 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0794, 'ndcg_exp@10': 0.0195, 'ndcg_rep@10': 0.0799, 'pop@10': 0.2847, 'recall_all@10': 0.0737, 'recall_exp@10': 0.0276, 'recall_rep@10': 0.0788, 'repr@10': 0.8556, 'repratio_gt': 0.8409}
+2026-09-16 14:48:18,453 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0815, 'ndcg_exp@10': 0.0186, 'ndcg_rep@10': 0.0825, 'pop@10': 0.2811, 'recall_all@10': 0.076, 'recall_exp@10': 0.0271, 'recall_rep@10': 0.0815, 'repr@10': 0.8545, 'repratio_gt': 0.8397}
+2026-09-16 14:48:18,467 INFO __main__ natural
+shape: (10, 4)
+┌───────────────┬──────────┬──────────┬──────────┐
+│ metric        ┆ mean     ┆ ci_lo    ┆ ci_hi    │
+│ ---           ┆ ---      ┆ ---      ┆ ---      │
+│ str           ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════════╪══════════╪══════════╪══════════╡
+│ ndcg_all@10   ┆ 0.081522 ┆ 0.08039  ┆ 0.082442 │
+│ ndcg_exp@10   ┆ 0.018889 ┆ 0.018438 ┆ 0.019318 │
+│ ndcg_rep@10   ┆ 0.082271 ┆ 0.081    ┆ 0.083274 │
+│ pop@10        ┆ 0.283012 ┆ 0.281692 ┆ 0.284351 │
+│ recall_all@10 ┆ 0.075743 ┆ 0.07467  ┆ 0.076494 │
+│ recall_exp@10 ┆ 0.027311 ┆ 0.026619 ┆ 0.027846 │
+│ recall_rep@10 ┆ 0.081058 ┆ 0.079883 ┆ 0.081916 │
+│ rep_bias      ┆ 0.014958 ┆ 0.014357 ┆ 0.015794 │
+│ repr@10       ┆ 0.855725 ┆ 0.854945 ┆ 0.85655  │
+│ repratio_gt   ┆ 0.840767 ┆ 0.840118 ┆ 0.841581 │
+└───────────────┴──────────┴──────────┴──────────┘
+2026-09-16 14:48:46,663 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0155, 'ndcg_exp@10': 0.0607, 'ndcg_rep@10': 0.0, 'pop@10': 0.2325, 'recall_all@10': 0.0135, 'recall_exp@10': 0.0863, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8422}
+2026-09-16 14:49:14,673 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0156, 'ndcg_exp@10': 0.0587, 'ndcg_rep@10': 0.0, 'pop@10': 0.2321, 'recall_all@10': 0.0135, 'recall_exp@10': 0.0844, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8406}
+2026-09-16 14:49:42,862 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0156, 'ndcg_exp@10': 0.0606, 'ndcg_rep@10': 0.0, 'pop@10': 0.2347, 'recall_all@10': 0.0134, 'recall_exp@10': 0.0852, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8404}
+2026-09-16 14:50:11,108 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.016, 'ndcg_exp@10': 0.0604, 'ndcg_rep@10': 0.0, 'pop@10': 0.2343, 'recall_all@10': 0.014, 'recall_exp@10': 0.0869, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8409}
+2026-09-16 14:50:39,388 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0152, 'ndcg_exp@10': 0.0601, 'ndcg_rep@10': 0.0, 'pop@10': 0.2319, 'recall_all@10': 0.0132, 'recall_exp@10': 0.0854, 'recall_rep@10': 0.0, 'repr@10': 0.0, 'repratio_gt': 0.8397}
+2026-09-16 14:50:39,404 INFO __main__ explore_only
+shape: (10, 4)
+┌───────────────┬───────────┬───────────┬───────────┐
+│ metric        ┆ mean      ┆ ci_lo     ┆ ci_hi     │
+│ ---           ┆ ---       ┆ ---       ┆ ---       │
+│ str           ┆ f64       ┆ f64       ┆ f64       │
+╞═══════════════╪═══════════╪═══════════╪═══════════╡
+│ ndcg_all@10   ┆ 0.015569  ┆ 0.015364  ┆ 0.015796  │
+│ ndcg_exp@10   ┆ 0.060079  ┆ 0.05937   ┆ 0.060565  │
+│ ndcg_rep@10   ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ pop@10        ┆ 0.233108  ┆ 0.23208   ┆ 0.234136  │
+│ recall_all@10 ┆ 0.013527  ┆ 0.013346  ┆ 0.013769  │
+│ recall_exp@10 ┆ 0.085656  ┆ 0.084947  ┆ 0.086446  │
+│ recall_rep@10 ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ rep_bias      ┆ -0.840767 ┆ -0.841581 ┆ -0.840118 │
+│ repr@10       ┆ 0.0       ┆ 0.0       ┆ 0.0       │
+│ repratio_gt   ┆ 0.840767  ┆ 0.840118  ┆ 0.841581  │
+└───────────────┴───────────┴───────────┴───────────┘

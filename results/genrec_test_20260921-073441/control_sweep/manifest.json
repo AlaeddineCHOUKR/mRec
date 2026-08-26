@@ -1,0 +1,34 @@
+{
+  "kind": "control_sweep",
+  "status": "complete",
+  "git_commit": "73f88d196473421b6147b1b9cffa8090a0022f14",
+  "git_dirty": false,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "run": "PROJECTS/02-repeat-aware-genrec/results/genrec_test_20260921-073441",
+    "modes": [
+      "free",
+      "repeat",
+      "explore"
+    ],
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ]
+  },
+  "started_at": "2026-09-21T08:36:22+0000",
+  "modes": [
+    "free",
+    "repeat",
+    "explore"
+  ],
+  "n_users": 3000,
+  "wall_seconds": 441.6,
+  "finished_at": "2026-09-21T08:43:43+0000"
+}

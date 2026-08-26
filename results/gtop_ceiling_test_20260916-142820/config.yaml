@@ -1,0 +1,15 @@
+batch_size: 100
+k: 10
+model: gtop_ceiling
+model_params: {}
+n_users: 3000
+proc_dir: /home/jupyter-a.choukr-allah/Deezer/data/proc
+results_dir: PROJECTS/03-controllable-decoding/results
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907
+seqlen: 30
+split: test

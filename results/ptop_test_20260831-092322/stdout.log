@@ -1,0 +1,24 @@
+2026-08-31 09:23:22,931 INFO __main__ run dir /home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results/ptop_test_20260831-092322
+2026-08-31 09:23:49,171 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0805, 'ndcg_exp@10': 0.0, 'ndcg_rep@10': 0.0845, 'pop@10': 0.2499, 'recall_all@10': 0.0775, 'recall_exp@10': 0.0, 'recall_rep@10': 0.0838, 'repr@10': 1.0, 'repratio_gt': 0.8422}
+2026-08-31 09:24:14,634 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0825, 'ndcg_exp@10': 0.0, 'ndcg_rep@10': 0.0867, 'pop@10': 0.2473, 'recall_all@10': 0.0792, 'recall_exp@10': 0.0, 'recall_rep@10': 0.0858, 'repr@10': 1.0, 'repratio_gt': 0.8406}
+2026-08-31 09:24:41,246 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0838, 'ndcg_exp@10': 0.0, 'ndcg_rep@10': 0.0883, 'pop@10': 0.2515, 'recall_all@10': 0.0798, 'recall_exp@10': 0.0, 'recall_rep@10': 0.0865, 'repr@10': 1.0, 'repratio_gt': 0.8404}
+2026-08-31 09:25:07,559 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0785, 'ndcg_exp@10': 0.0, 'ndcg_rep@10': 0.0827, 'pop@10': 0.2513, 'recall_all@10': 0.075, 'recall_exp@10': 0.0, 'recall_rep@10': 0.0815, 'repr@10': 1.0, 'repratio_gt': 0.8409}
+2026-08-31 09:25:33,886 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.0811, 'ndcg_exp@10': 0.0, 'ndcg_rep@10': 0.0851, 'pop@10': 0.2489, 'recall_all@10': 0.0776, 'recall_exp@10': 0.0, 'recall_rep@10': 0.0839, 'repr@10': 1.0, 'repratio_gt': 0.8397}
+2026-08-31 09:25:33,901 INFO __main__ 
+shape: (10, 4)
+┌───────────────┬──────────┬──────────┬──────────┐
+│ metric        ┆ mean     ┆ ci_lo    ┆ ci_hi    │
+│ ---           ┆ ---      ┆ ---      ┆ ---      │
+│ str           ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════════╪══════════╪══════════╪══════════╡
+│ ndcg_all@10   ┆ 0.08128  ┆ 0.079717 ┆ 0.082738 │
+│ ndcg_exp@10   ┆ 0.0      ┆ 0.0      ┆ 0.0      │
+│ ndcg_rep@10   ┆ 0.085451 ┆ 0.083835 ┆ 0.087008 │
+│ pop@10        ┆ 0.249778 ┆ 0.248433 ┆ 0.25109  │
+│ recall_all@10 ┆ 0.077826 ┆ 0.076354 ┆ 0.079131 │
+│ recall_exp@10 ┆ 0.0      ┆ 0.0      ┆ 0.0      │
+│ recall_rep@10 ┆ 0.084322 ┆ 0.082865 ┆ 0.08572  │
+│ rep_bias      ┆ 0.159233 ┆ 0.158419 ┆ 0.159882 │
+│ repr@10       ┆ 1.0      ┆ 1.0      ┆ 1.0      │
+│ repratio_gt   ┆ 0.840767 ┆ 0.840118 ┆ 0.841581 │
+└───────────────┴──────────┴──────────┴──────────┘

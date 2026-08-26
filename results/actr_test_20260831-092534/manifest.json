@@ -1,0 +1,46 @@
+{
+  "kind": "eval",
+  "status": "complete",
+  "git_commit": "c7a93dc4688cebe4cfad1187c73605a7933b9c6a",
+  "git_dirty": true,
+  "uv_lock_sha256": "b96e7ec279b8a5c4b2d9851ce4c451ade86223d4be03b7bda315d6c61d51ac2f",
+  "python": "3.12.6",
+  "host": "maje-gpu01",
+  "config": {
+    "model": "actr",
+    "split": "test",
+    "k": 10,
+    "seqlen": 30,
+    "n_users": 3000,
+    "seeds": [
+      1013,
+      2791,
+      4357,
+      6199,
+      7907
+    ],
+    "batch_size": 100,
+    "proc_dir": "/home/jupyter-a.choukr-allah/Deezer/data/proc",
+    "results_dir": "/home/jupyter-a.choukr-allah/Deezer/PROJECTS/00-mrec-core/results"
+  },
+  "started_at": "2026-08-31T09:25:34+0000",
+  "counts": {
+    "n_users": 7063,
+    "n_items": 50000
+  },
+  "summary": {
+    "ndcg_all@10": 0.10718053616444342,
+    "ndcg_exp@10": 0.0,
+    "ndcg_rep@10": 0.116747071092185,
+    "pop@10": 0.28056377667657745,
+    "recall_all@10": 0.10315651322751326,
+    "recall_exp@10": 0.0,
+    "recall_rep@10": 0.11876863761862777,
+    "rep_bias": 0.15923290211640184,
+    "repr@10": 1.0,
+    "repratio_gt": 0.840767097883598
+  },
+  "wall_seconds": 303.0,
+  "finished_at": "2026-08-31T09:30:37+0000",
+  "git_commit_before_rewrite": "f5d7653213d61731ae40e4685f4569b4d5c5cf7d"
+}

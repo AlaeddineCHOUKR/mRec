@@ -1,0 +1,14 @@
+metric: ndcg_all@10
+model: pisa
+model_config: PROJECTS/03-controllable-decoding/configs/pisa_ceiling.yaml
+n_users: 3000
+ratios:
+- 0.8
+- 0.9
+- 1.0
+seeds:
+- 1013
+- 2791
+- 4357
+- 6199
+- 7907

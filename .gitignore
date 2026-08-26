@@ -1,0 +1,12 @@
+data/
+vendor/
+.venv/
+Papers/*.pdf
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Model checkpoints are regenerable from config + manifest; keep results text-only.
+*.pt

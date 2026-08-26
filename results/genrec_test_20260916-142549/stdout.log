@@ -1,0 +1,160 @@
+2026-09-16 14:25:49,281 INFO __main__ run dir PROJECTS/02-repeat-aware-genrec/results/genrec_test_20260916-142549
+2026-09-16 14:25:50,019 INFO faiss._loader Loading faiss with AVX512-SPR support.
+2026-09-16 14:25:50,019 INFO faiss._loader Could not load library with AVX512-SPR support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512_spr'")
+2026-09-16 14:25:50,019 INFO faiss._loader Loading faiss with AVX512 support.
+2026-09-16 14:25:50,019 INFO faiss._loader Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-09-16 14:25:50,019 INFO faiss._loader Loading faiss with AVX2 support.
+2026-09-16 14:25:50,019 INFO faiss._loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-09-16 14:25:50,019 INFO faiss._loader Loading faiss.
+2026-09-16 14:25:50,037 INFO faiss._loader Successfully loaded faiss.
+2026-09-16 14:25:51,814 INFO mrec.models.genrec_recommender residual_kmeans: 4 levels, collision rate 0.734, largest bucket 235
+2026-09-16 14:25:52,723 INFO mrec.models.genrec_recommender training windows: 113649, validation windows: 10000
+2026-09-16 14:26:08,394 INFO mrec.models.genrec_recommender epoch 0  train 2.5099  valid 2.1826  14s  *
+2026-09-16 14:26:21,902 INFO mrec.models.genrec_recommender epoch 1  train 2.0751  valid 2.0545  14s  *
+2026-09-16 14:26:35,453 INFO mrec.models.genrec_recommender epoch 2  train 1.9912  valid 2.0056  14s  *
+2026-09-16 14:26:48,968 INFO mrec.models.genrec_recommender epoch 3  train 1.9532  valid 1.9780  14s  *
+2026-09-16 14:27:02,641 INFO mrec.models.genrec_recommender epoch 4  train 1.9316  valid 1.9617  14s  *
+2026-09-16 14:27:16,403 INFO mrec.models.genrec_recommender epoch 5  train 1.9174  valid 1.9505  14s  *
+2026-09-16 14:27:30,142 INFO mrec.models.genrec_recommender epoch 6  train 1.9074  valid 1.9414  14s  *
+2026-09-16 14:27:43,932 INFO mrec.models.genrec_recommender epoch 7  train 1.8997  valid 1.9349  14s  *
+2026-09-16 14:27:57,645 INFO mrec.models.genrec_recommender epoch 8  train 1.8937  valid 1.9296  14s  *
+2026-09-16 14:28:11,200 INFO mrec.models.genrec_recommender epoch 9  train 1.8888  valid 1.9253  14s  *
+2026-09-16 14:28:24,764 INFO mrec.models.genrec_recommender epoch 10  train 1.8848  valid 1.9217  14s  *
+2026-09-16 14:28:38,332 INFO mrec.models.genrec_recommender epoch 11  train 1.8813  valid 1.9185  14s  *
+2026-09-16 14:28:51,916 INFO mrec.models.genrec_recommender epoch 12  train 1.8783  valid 1.9165  14s  *
+2026-09-16 14:29:05,503 INFO mrec.models.genrec_recommender epoch 13  train 1.8757  valid 1.9134  14s  *
+2026-09-16 14:29:19,097 INFO mrec.models.genrec_recommender epoch 14  train 1.8735  valid 1.9123  14s  *
+2026-09-16 14:29:32,695 INFO mrec.models.genrec_recommender epoch 15  train 1.8714  valid 1.9094  14s  *
+2026-09-16 14:29:46,270 INFO mrec.models.genrec_recommender epoch 16  train 1.8695  valid 1.9075  14s  *
+2026-09-16 14:29:59,848 INFO mrec.models.genrec_recommender epoch 17  train 1.8678  valid 1.9063  14s  *
+2026-09-16 14:30:13,492 INFO mrec.models.genrec_recommender epoch 18  train 1.8662  valid 1.9045  14s  *
+2026-09-16 14:30:27,319 INFO mrec.models.genrec_recommender epoch 19  train 1.8647  valid 1.9032  14s  *
+2026-09-16 14:30:41,180 INFO mrec.models.genrec_recommender epoch 20  train 1.8635  valid 1.9027  14s  *
+2026-09-16 14:30:55,049 INFO mrec.models.genrec_recommender epoch 21  train 1.8622  valid 1.9009  14s  *
+2026-09-16 14:31:08,922 INFO mrec.models.genrec_recommender epoch 22  train 1.8611  valid 1.9001  14s  *
+2026-09-16 14:31:22,581 INFO mrec.models.genrec_recommender epoch 23  train 1.8601  valid 1.9001  14s  *
+2026-09-16 14:31:36,181 INFO mrec.models.genrec_recommender epoch 24  train 1.8590  valid 1.8982  14s  *
+2026-09-16 14:31:49,786 INFO mrec.models.genrec_recommender epoch 25  train 1.8581  valid 1.8974  14s  *
+2026-09-16 14:32:03,367 INFO mrec.models.genrec_recommender epoch 26  train 1.8572  valid 1.8965  14s  *
+2026-09-16 14:32:16,938 INFO mrec.models.genrec_recommender epoch 27  train 1.8564  valid 1.8968  14s
+2026-09-16 14:32:30,520 INFO mrec.models.genrec_recommender epoch 28  train 1.8556  valid 1.8953  14s  *
+2026-09-16 14:32:44,109 INFO mrec.models.genrec_recommender epoch 29  train 1.8548  valid 1.8942  14s  *
+2026-09-16 14:32:57,692 INFO mrec.models.genrec_recommender epoch 30  train 1.8541  valid 1.8938  14s  *
+2026-09-16 14:33:11,269 INFO mrec.models.genrec_recommender epoch 31  train 1.8533  valid 1.8935  14s  *
+2026-09-16 14:33:24,843 INFO mrec.models.genrec_recommender epoch 32  train 1.8527  valid 1.8923  14s  *
+2026-09-16 14:33:38,603 INFO mrec.models.genrec_recommender epoch 33  train 1.8521  valid 1.8917  14s  *
+2026-09-16 14:33:52,476 INFO mrec.models.genrec_recommender epoch 34  train 1.8515  valid 1.8915  14s  *
+2026-09-16 14:34:06,329 INFO mrec.models.genrec_recommender epoch 35  train 1.8508  valid 1.8913  14s  *
+2026-09-16 14:34:20,195 INFO mrec.models.genrec_recommender epoch 36  train 1.8503  valid 1.8918  14s
+2026-09-16 14:34:33,943 INFO mrec.models.genrec_recommender epoch 37  train 1.8498  valid 1.8901  14s  *
+2026-09-16 14:34:47,545 INFO mrec.models.genrec_recommender epoch 38  train 1.8493  valid 1.8900  14s  *
+2026-09-16 14:35:01,121 INFO mrec.models.genrec_recommender epoch 39  train 1.8488  valid 1.8890  14s  *
+2026-09-16 14:35:14,696 INFO mrec.models.genrec_recommender epoch 40  train 1.8483  valid 1.8895  14s
+2026-09-16 14:35:28,269 INFO mrec.models.genrec_recommender epoch 41  train 1.8479  valid 1.8881  14s  *
+2026-09-16 14:35:41,848 INFO mrec.models.genrec_recommender epoch 42  train 1.8473  valid 1.8881  14s  *
+2026-09-16 14:35:55,432 INFO mrec.models.genrec_recommender epoch 43  train 1.8470  valid 1.8880  14s  *
+2026-09-16 14:36:09,021 INFO mrec.models.genrec_recommender epoch 44  train 1.8465  valid 1.8868  14s  *
+2026-09-16 14:36:22,622 INFO mrec.models.genrec_recommender epoch 45  train 1.8461  valid 1.8864  14s  *
+2026-09-16 14:36:36,223 INFO mrec.models.genrec_recommender epoch 46  train 1.8457  valid 1.8865  14s
+2026-09-16 14:36:49,848 INFO mrec.models.genrec_recommender epoch 47  train 1.8453  valid 1.8857  14s  *
+2026-09-16 14:37:03,441 INFO mrec.models.genrec_recommender epoch 48  train 1.8450  valid 1.8854  14s  *
+2026-09-16 14:37:17,002 INFO mrec.models.genrec_recommender epoch 49  train 1.8446  valid 1.8858  14s
+2026-09-16 14:37:30,559 INFO mrec.models.genrec_recommender epoch 50  train 1.8442  valid 1.8853  14s  *
+2026-09-16 14:37:44,121 INFO mrec.models.genrec_recommender epoch 51  train 1.8439  valid 1.8850  14s  *
+2026-09-16 14:37:57,693 INFO mrec.models.genrec_recommender epoch 52  train 1.8435  valid 1.8841  14s  *
+2026-09-16 14:38:11,263 INFO mrec.models.genrec_recommender epoch 53  train 1.8432  valid 1.8839  14s  *
+2026-09-16 14:38:24,831 INFO mrec.models.genrec_recommender epoch 54  train 1.8429  valid 1.8840  14s
+2026-09-16 14:38:38,404 INFO mrec.models.genrec_recommender epoch 55  train 1.8425  valid 1.8841  14s
+2026-09-16 14:38:51,981 INFO mrec.models.genrec_recommender epoch 56  train 1.8424  valid 1.8833  14s  *
+2026-09-16 14:39:05,561 INFO mrec.models.genrec_recommender epoch 57  train 1.8421  valid 1.8832  14s  *
+2026-09-16 14:39:19,384 INFO mrec.models.genrec_recommender epoch 58  train 1.8417  valid 1.8832  14s  *
+2026-09-16 14:39:32,959 INFO mrec.models.genrec_recommender epoch 59  train 1.8414  valid 1.8829  14s  *
+2026-09-16 14:39:46,528 INFO mrec.models.genrec_recommender epoch 60  train 1.8412  valid 1.8817  14s  *
+2026-09-16 14:40:00,099 INFO mrec.models.genrec_recommender epoch 61  train 1.8409  valid 1.8817  14s  *
+2026-09-16 14:40:13,671 INFO mrec.models.genrec_recommender epoch 62  train 1.8406  valid 1.8821  14s
+2026-09-16 14:40:27,245 INFO mrec.models.genrec_recommender epoch 63  train 1.8403  valid 1.8813  14s  *
+2026-09-16 14:40:40,814 INFO mrec.models.genrec_recommender epoch 64  train 1.8401  valid 1.8814  14s
+2026-09-16 14:40:54,384 INFO mrec.models.genrec_recommender epoch 65  train 1.8399  valid 1.8809  14s  *
+2026-09-16 14:41:07,952 INFO mrec.models.genrec_recommender epoch 66  train 1.8396  valid 1.8812  14s
+2026-09-16 14:41:21,522 INFO mrec.models.genrec_recommender epoch 67  train 1.8394  valid 1.8813  14s
+2026-09-16 14:41:35,097 INFO mrec.models.genrec_recommender epoch 68  train 1.8392  valid 1.8803  14s  *
+2026-09-16 14:41:48,672 INFO mrec.models.genrec_recommender epoch 69  train 1.8388  valid 1.8800  14s  *
+2026-09-16 14:42:02,240 INFO mrec.models.genrec_recommender epoch 70  train 1.8387  valid 1.8802  14s
+2026-09-16 14:42:15,874 INFO mrec.models.genrec_recommender epoch 71  train 1.8385  valid 1.8803  14s
+2026-09-16 14:42:29,442 INFO mrec.models.genrec_recommender epoch 72  train 1.8383  valid 1.8804  14s
+2026-09-16 14:42:43,018 INFO mrec.models.genrec_recommender epoch 73  train 1.8380  valid 1.8804  14s
+2026-09-16 14:42:56,594 INFO mrec.models.genrec_recommender epoch 74  train 1.8379  valid 1.8796  14s  *
+2026-09-16 14:43:10,170 INFO mrec.models.genrec_recommender epoch 75  train 1.8377  valid 1.8794  14s  *
+2026-09-16 14:43:23,749 INFO mrec.models.genrec_recommender epoch 76  train 1.8375  valid 1.8791  14s  *
+2026-09-16 14:43:37,337 INFO mrec.models.genrec_recommender epoch 77  train 1.8372  valid 1.8788  14s  *
+2026-09-16 14:43:50,916 INFO mrec.models.genrec_recommender epoch 78  train 1.8370  valid 1.8786  14s  *
+2026-09-16 14:44:04,495 INFO mrec.models.genrec_recommender epoch 79  train 1.8369  valid 1.8795  14s
+2026-09-16 14:44:18,063 INFO mrec.models.genrec_recommender epoch 80  train 1.8367  valid 1.8785  14s  *
+2026-09-16 14:44:31,639 INFO mrec.models.genrec_recommender epoch 81  train 1.8365  valid 1.8787  14s
+2026-09-16 14:44:45,225 INFO mrec.models.genrec_recommender epoch 82  train 1.8363  valid 1.8783  14s  *
+2026-09-16 14:44:58,799 INFO mrec.models.genrec_recommender epoch 83  train 1.8362  valid 1.8779  14s  *
+2026-09-16 14:45:12,379 INFO mrec.models.genrec_recommender epoch 84  train 1.8359  valid 1.8777  14s  *
+2026-09-16 14:45:25,950 INFO mrec.models.genrec_recommender epoch 85  train 1.8358  valid 1.8780  14s
+2026-09-16 14:45:39,505 INFO mrec.models.genrec_recommender epoch 86  train 1.8356  valid 1.8778  14s
+2026-09-16 14:45:53,061 INFO mrec.models.genrec_recommender epoch 87  train 1.8355  valid 1.8772  14s  *
+2026-09-16 14:46:06,832 INFO mrec.models.genrec_recommender epoch 88  train 1.8353  valid 1.8769  14s  *
+2026-09-16 14:46:20,646 INFO mrec.models.genrec_recommender epoch 89  train 1.8351  valid 1.8774  14s
+2026-09-16 14:46:34,396 INFO mrec.models.genrec_recommender epoch 90  train 1.8350  valid 1.8773  14s
+2026-09-16 14:46:48,226 INFO mrec.models.genrec_recommender epoch 91  train 1.8348  valid 1.8766  14s  *
+2026-09-16 14:47:01,999 INFO mrec.models.genrec_recommender epoch 92  train 1.8347  valid 1.8770  14s
+2026-09-16 14:47:15,872 INFO mrec.models.genrec_recommender epoch 93  train 1.8345  valid 1.8772  14s
+2026-09-16 14:47:29,665 INFO mrec.models.genrec_recommender epoch 94  train 1.8343  valid 1.8763  14s  *
+2026-09-16 14:47:43,545 INFO mrec.models.genrec_recommender epoch 95  train 1.8343  valid 1.8762  14s  *
+2026-09-16 14:47:57,312 INFO mrec.models.genrec_recommender epoch 96  train 1.8341  valid 1.8766  14s
+2026-09-16 14:48:11,188 INFO mrec.models.genrec_recommender epoch 97  train 1.8339  valid 1.8762  14s  *
+2026-09-16 14:48:24,842 INFO mrec.models.genrec_recommender epoch 98  train 1.8338  valid 1.8758  14s  *
+2026-09-16 14:48:38,535 INFO mrec.models.genrec_recommender epoch 99  train 1.8336  valid 1.8753  14s  *
+2026-09-16 14:48:52,185 INFO mrec.models.genrec_recommender epoch 100  train 1.8335  valid 1.8764  14s
+2026-09-16 14:49:05,896 INFO mrec.models.genrec_recommender epoch 101  train 1.8334  valid 1.8763  14s
+2026-09-16 14:49:19,543 INFO mrec.models.genrec_recommender epoch 102  train 1.8332  valid 1.8753  14s
+2026-09-16 14:49:33,261 INFO mrec.models.genrec_recommender epoch 103  train 1.8332  valid 1.8753  14s  *
+2026-09-16 14:49:46,893 INFO mrec.models.genrec_recommender epoch 104  train 1.8330  valid 1.8752  14s  *
+2026-09-16 14:50:00,722 INFO mrec.models.genrec_recommender epoch 105  train 1.8328  valid 1.8755  14s
+2026-09-16 14:50:14,355 INFO mrec.models.genrec_recommender epoch 106  train 1.8328  valid 1.8749  14s  *
+2026-09-16 14:50:28,082 INFO mrec.models.genrec_recommender epoch 107  train 1.8327  valid 1.8752  14s
+2026-09-16 14:50:41,701 INFO mrec.models.genrec_recommender epoch 108  train 1.8325  valid 1.8746  14s  *
+2026-09-16 14:50:55,301 INFO mrec.models.genrec_recommender epoch 109  train 1.8324  valid 1.8744  14s  *
+2026-09-16 14:51:08,912 INFO mrec.models.genrec_recommender epoch 110  train 1.8323  valid 1.8749  14s
+2026-09-16 14:51:22,516 INFO mrec.models.genrec_recommender epoch 111  train 1.8321  valid 1.8741  14s  *
+2026-09-16 14:51:36,105 INFO mrec.models.genrec_recommender epoch 112  train 1.8320  valid 1.8742  14s
+2026-09-16 14:51:49,695 INFO mrec.models.genrec_recommender epoch 113  train 1.8319  valid 1.8744  14s
+2026-09-16 14:52:03,286 INFO mrec.models.genrec_recommender epoch 114  train 1.8318  valid 1.8745  14s
+2026-09-16 14:52:16,874 INFO mrec.models.genrec_recommender epoch 115  train 1.8317  valid 1.8742  14s
+2026-09-16 14:52:30,462 INFO mrec.models.genrec_recommender epoch 116  train 1.8316  valid 1.8735  14s  *
+2026-09-16 14:52:44,048 INFO mrec.models.genrec_recommender epoch 117  train 1.8315  valid 1.8745  14s
+2026-09-16 14:52:57,633 INFO mrec.models.genrec_recommender epoch 118  train 1.8313  valid 1.8736  14s
+2026-09-16 14:53:11,222 INFO mrec.models.genrec_recommender epoch 119  train 1.8312  valid 1.8741  14s
+2026-09-16 14:53:24,827 INFO mrec.models.genrec_recommender epoch 120  train 1.8311  valid 1.8736  14s
+2026-09-16 14:53:38,439 INFO mrec.models.genrec_recommender epoch 121  train 1.8310  valid 1.8738  14s
+2026-09-16 14:53:38,439 INFO mrec.models.genrec_recommender no improvement for 5 epochs; stopping at 121
+2026-09-16 14:54:07,426 INFO mrec.eval.runner seed 1013: {'ndcg_all@10': 0.0742, 'ndcg_exp@10': 0.007, 'ndcg_rep@10': 0.0765, 'pop@10': 0.297, 'recall_all@10': 0.0706, 'recall_exp@10': 0.0117, 'recall_rep@10': 0.0754, 'repr@10': 0.8626, 'repratio_gt': 0.8422}
+2026-09-16 14:54:36,144 INFO mrec.eval.runner seed 2791: {'ndcg_all@10': 0.0757, 'ndcg_exp@10': 0.0071, 'ndcg_rep@10': 0.0782, 'pop@10': 0.295, 'recall_all@10': 0.0722, 'recall_exp@10': 0.0116, 'recall_rep@10': 0.0776, 'repr@10': 0.8647, 'repratio_gt': 0.8406}
+2026-09-16 14:55:05,012 INFO mrec.eval.runner seed 4357: {'ndcg_all@10': 0.0764, 'ndcg_exp@10': 0.0066, 'ndcg_rep@10': 0.0791, 'pop@10': 0.2986, 'recall_all@10': 0.0726, 'recall_exp@10': 0.0111, 'recall_rep@10': 0.078, 'repr@10': 0.8624, 'repratio_gt': 0.8404}
+2026-09-16 14:55:33,982 INFO mrec.eval.runner seed 6199: {'ndcg_all@10': 0.0714, 'ndcg_exp@10': 0.0074, 'ndcg_rep@10': 0.0737, 'pop@10': 0.2985, 'recall_all@10': 0.0678, 'recall_exp@10': 0.0121, 'recall_rep@10': 0.0726, 'repr@10': 0.8609, 'repratio_gt': 0.8409}
+2026-09-16 14:56:03,085 INFO mrec.eval.runner seed 7907: {'ndcg_all@10': 0.075, 'ndcg_exp@10': 0.0076, 'ndcg_rep@10': 0.0772, 'pop@10': 0.2958, 'recall_all@10': 0.0716, 'recall_exp@10': 0.0127, 'recall_rep@10': 0.0766, 'repr@10': 0.8576, 'repratio_gt': 0.8397}
+2026-09-16 14:56:03,097 INFO __main__ 
+shape: (10, 4)
+┌───────────────┬──────────┬──────────┬──────────┐
+│ metric        ┆ mean     ┆ ci_lo    ┆ ci_hi    │
+│ ---           ┆ ---      ┆ ---      ┆ ---      │
+│ str           ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════════╪══════════╪══════════╪══════════╡
+│ ndcg_all@10   ┆ 0.07454  ┆ 0.072949 ┆ 0.07584  │
+│ ndcg_exp@10   ┆ 0.007126 ┆ 0.006811 ┆ 0.007435 │
+│ ndcg_rep@10   ┆ 0.07693  ┆ 0.075264 ┆ 0.078357 │
+│ pop@10        ┆ 0.296963 ┆ 0.295718 ┆ 0.298208 │
+│ recall_all@10 ┆ 0.070946 ┆ 0.06931  ┆ 0.072236 │
+│ recall_exp@10 ┆ 0.01184  ┆ 0.011419 ┆ 0.012294 │
+│ recall_rep@10 ┆ 0.076051 ┆ 0.074283 ┆ 0.077557 │
+│ rep_bias      ┆ 0.020847 ┆ 0.019131 ┆ 0.022806 │
+│ repr@10       ┆ 0.861614 ┆ 0.859544 ┆ 0.863484 │
+│ repratio_gt   ┆ 0.840767 ┆ 0.840118 ┆ 0.841581 │
+└───────────────┴──────────┴──────────┴──────────┘

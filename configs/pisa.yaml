@@ -1,0 +1,27 @@
+model: pisa
+split: test
+k: 10
+seqlen: 30
+n_users: 3000
+batch_size: 100
+model_params:
+  # published hyperparameters, configs/deezer/baselines/pisa.json
+  model:
+    embedding_dim: 128
+    seqlen: 30
+    num_blocks: 2
+    num_heads: 2
+    dropout: 0.0
+    num_favs: 20
+    flatten_actr: 0.5
+    lbda_task: 0.9
+    lbda_pos: 0.9
+    lbda_ls: 0.4
+  training:
+    lr: 0.001
+    batch_size: 512
+    epochs: 100
+    patience: 5
+    max_steps: 150000
+    device: cuda
+  n_valid_users: 1000

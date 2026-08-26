@@ -1,0 +1,38 @@
+[project]
+name = "mrec"
+version = "0.1.0"
+description = "Shared research library for generative retrieval in music recommendation"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "polars>=1.0",
+    "pyarrow>=17",
+    "requests>=2.32",
+    "tqdm>=4.66",
+    "pyyaml>=6.0",
+    "scipy>=1.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+# milestone 3+: models and quantizers. faiss ships GPU support only as the
+# third-party cu12 wheel; it runs on the cu13 driver here.
+models = ["torch>=2.5", "faiss-gpu-cu12>=1.9"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mrec"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["slow: requires the built data/proc artifacts"]
