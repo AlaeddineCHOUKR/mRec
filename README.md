@@ -22,7 +22,7 @@ session, rank the whole catalogue, average per user, five samples of 3,000 users
 baseline reproduces their published numbers to within 0.03 points, which is what I use to
 check the harness before trusting anything new.
 
-## What I set out to build, and why I didn't
+## Plan
 
 The plan was a model you could guide, so you could ask it for more repeats or more new
 tracks. Before building it I checked what that guidance is worth without a model at all.
