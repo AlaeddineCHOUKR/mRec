@@ -24,8 +24,8 @@ check the harness before trusting anything new.
 
 ## What I set out to build, and why I didn't
 
-The plan was a model you could steer, so you could ask it for more repeats or more new
-tracks. Before building it I checked what that steering is worth without a model at all.
+The plan was a model you could guide, so you could ask it for more repeats or more new
+tracks. Before building it I checked what that guidance is worth without a model at all.
 
 Take a model that only suggests tracks the user knows, take a second that only suggests
 tracks they don't, and fill the ten slots from both. Want 8 repeats? Take 8 from the first
@@ -47,7 +47,7 @@ I should be careful about what this shows. The mix is built out of the models it
 it is not a better recommender. What it says is where the trained models lose: not in
 ranking tracks, but in deciding how many of the ten slots to spend on repeats.
 
-I built the steerable model anyway, to see what it does. It responds in the right direction,
+I built the model anyway, to see what it does. It responds in the right direction,
 but it only moves the repeat rate between 80.8% and 86.1%, where the simple mix covers the
 whole range, and getting that small move costs 11% of the accuracy.
 
